@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Reddit /r/dailyprogrammer challenge #150</title>
+		<script src="wordList.min.js"></script>
+		<script src="wordBank.min.js"></script>
+		<style>
+			.time {
+				color: #666;
+			}
+			p {
+				padding:0.2em;
+				margin:0;
+				line-height: 0.8;
+				font-family : monospace;
+			}
+			input {
+				width : 300px;
+			}
+		</style>
+	</head>
+	<body>
+	<h2>Question can be found here : http://www.reddit.com/r/dailyprogrammer/comments/1yzlde/022614_challenge_150_intermediate_reemvoweler_1/</h2>
+	<div id="result" style ="height:400px;width:550px;float:right;overflow:scroll;border: 1px solid #000;">
+		<h3>Log of the program (check console if taking too long)<h3>
+	</div>
+	<input id="consonants">	<br>
+	<input id="vowels"> <br>
+	<input onclick="emvowelateEvokedFromElement()" type="button" value="emvowelate">
+	<hr>
+	<input id="devowelate"> <br>
+	<input onclick="devowelate()" type="button" value="devowelate">
+	<script src="script.js"></script>
+	</body>
+</html>
